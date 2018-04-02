@@ -29,7 +29,7 @@ Workshop given at Vanderbilt library carpentry workshop by Meredith Broadway on 
 1. As a general rule, branch when you don't want to disturb the master. To create a branch: ```$git branch testing ```. We've named our new branch 'testing.' Use ```$git status ``` to check the branch you're on. Move to another branch using the *checkout* command: ```$git checkout testing ```. Make minor changes to the README file (Steps 7. through 9.). 
 2. ```$git log --oneline --decorate --graph --all``` to see a log of all commits you've made 
 3. Merge branches to sync changes. Go back to the master branch using the *checkout* command. ```$git merge testing ``` 
-4. As a general rule, delete branches you've merged to the master: ```$git -d testing ```
+4. Delete branches you've merged to the master: ```$git -d testing ```
 
 ##### Things to remember: 
 * A *repository* is simply a fancy name for *folder*. The term *directory* is also used interchangably with *repository*. 

@@ -12,19 +12,21 @@ Workshop given at Vanderbilt library carpentry workshop by Meredith Broadway on 
 ## Git
 ### Basic Windows Commands: 
 #### Making a git repository:
-1. Open up the command line (cmd)
-2. Navigate to the Desktop ```>cd Desktop``` 
-3. Make a new directory ```>mkdir directoryname```
-4. Navigate from Desktop to your directory ```>cd directoryname```
-5. Initalize git in your directory ```>git init``` and use  ```>dir /adh``` to see the 'hidden' .git subdirectory 
-6. Create a new file in your direcotry ```>echo > filename.txt```
-7. Put some text in your file ```>echo I like green eggs and ham > filename.txt```
-8. Use ```>type filename.txt``` to see what you've written, or use ```>open filename.txt``` to open the file in your text editor
-9. Use  ```>git status ``` to see the status of the files in your directory. Red means your files are not tracked by git. Green means your files are tracked by git. 
+1. Open up Git Bash
+2. Navigate to the Desktop ```$cd Desktop``` 
+3. Make a new directory ```$mkdir directoryname```
+4. Navigate from Desktop to your directory ```$cd directoryname```
+5. Initalize git in your directory ```$git init``` and use  ```>ls -a``` to see the 'hidden' .git subdirectory  
+6. Create a new file in your direcotry ```$touch filename.txt```
+7. Use ```$cat filename.txt``` to see what you've written, or use ```$open filename.txt``` to open the file in your text editor. Use ```$echo "Append all your additional text here" >> filename.txt``` to append text to your file within Git Bash. If needed, use ```$git rm filename.txt``` to delete your file. 
+8. Use  ```$git status ``` to see the status of the files in your directory. Red means your files are not tracked by git. Green means your files are tracked by git. 
 #### Staging: 
-10. Use  ```>git add filename.txt``` to add your file to staging. Commit your files using  ```>git commit -m "add commit message" ```. **Note:** The best commit messages are short, concise, and *in the present tense.* 
-11. Make changes to your file. Check  ```>git status ``` again. Use  ```>git diff ``` to see changes you made to the file. Use  ```>git log ``` to see history of your commits. 
-12. Try and commit again. **Note:** This will not work because you must again add your updated file to make it ready for staging. Try adding files then commiting (Step 10.).
+9. Use  ```$git add filename.txt``` to add your file to staging. Commit your files using  ```$git commit -m "add commit message" ```. **Note:** The best commit messages are short, concise, and *in the present tense.* 
+10. Make changes to your file. Check  ```$git status ``` again. Use  ```$git diff ``` to see changes you made to the file. Use  ```$git log ``` to see history of your commits. 
+11. Try and commit again. **Note:** This will not work because you must again add your updated file to make it ready for staging. Try adding files then commiting (Step 10.).
+
+### Basic Mac Commands: 
+
 
 ##### Things to remember: 
 * A *repository* is simply a fancy name for *folder*. The term *directory* is also used interchangably with *repository*. 

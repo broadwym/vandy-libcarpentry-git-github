@@ -41,7 +41,7 @@ Workshop given at Vanderbilt library carpentry workshop by Meredith Broadway on 
 ## Github
 ### Cloning: 
 1. *Remote* repos exist on Github. *Local* repos exist on our own computers. When we clone, we copy a remote repo from Github to our own computers. We do the opposite when we *push* repos.  
-2. I prefer to clone remote repos to my Desktop. First I navigate with ```$cd Desktop ```. Then, I find the remote repo on Github I want to clone. For example, Heard Library's repo: https://github.com/HeardLibrary.workshops.git. The command I want to execute the clone:  ```$git clone  https://github.com/HeardLibrary.workshops.git```
+2. I prefer to clone remote repos to my Desktop. First I navigate with ```$cd Desktop ```. Then, I find the remote repo on Github I want to clone. For example, [Heard Library's repo](https://github.com/HeardLibrary/workshops). The command I want to execute the clone:  ```$git clone  https://github.com/HeardLibrary.workshops.git```
 
 ### Pushing:
 1. Pushing is essentially the opposite of cloning. We push a repo when we want to upload it to Github. Create an empty repo on Github for your incoming project. Choose not to initalize the empty repo with a README. 

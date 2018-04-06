@@ -46,8 +46,9 @@ Workshop given at Vanderbilt library carpentry workshop by Meredith Broadway on 
 ### Pushing:
 1. Pushing is essentially the opposite of cloning. We push a repo when we want to upload it to Github. Create an empty repo on Github for your incoming project. Choose not to initalize the empty repo with a README. 
 2. Go through steps 5 and 9: initalizing, adding, and commiting your files. 
-3. Use ```$git remote add origin [your empty remote repo's url]``` to set the location on Github you want to push to 
-4. Use ```$git push origin master``` to push your local repo to Github 
+3. Return to bash. ```$git remote -v``` to check your remotes. Clear remote ```$git remote rm origin``` if necessary. 
+4. Use ```$git remote add origin [your empty remote repo's url]``` to set the location on Github you want to push to 
+5. Use ```$git push -u origin master``` to push your local repo to Github 
 
 ### Pull request:
 1. Pulling can be tricky. More often than not, you won't have *write access* to the repo. First, fork the repo you want to pull over to your own Github. Use the 'Fork' icon in the upper right hand corner of the repo. 
